@@ -54,7 +54,7 @@ public class AdminController {
 	        // Set the specialties for the user
 	        newUser.setSpecialties(specialties);
 
-	        // Call the service to add the user
+	        // Call the service to add the user //method calling
 	        boolean isAdded = userService.addUser(newUser);
 	        System.out.println(isAdded);
 
